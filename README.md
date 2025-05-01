@@ -10,3 +10,6 @@ and ```lowest possible guess = correct answer + 10% * correct answer```<br><br>W
 Finally the average of all guesses is calculated and the results are plotted. The plot will contain all guesses (blue dots), the correct answer (green line) 
 as well as the average of all guesses (red line). An example of such a plot is shown below. Here the correct answer was 85. 30 people were guessing and the competence was set to 5.<br><br>
 ![output](https://github.com/user-attachments/assets/5812dbd2-fbc6-4fe5-b646-1b32512a4a20)
+## Requirements
+* Python3
+* matplotlib : ```pip install matplotlib```
