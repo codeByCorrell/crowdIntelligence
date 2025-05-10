@@ -12,7 +12,7 @@ Finally the average of all guesses is calculated and the results are plotted. Th
 as well as the average of all guesses (red line). An example of such a plot is shown below. Here the correct answer was 85. 30 people were guessing and the competence was set to 5.<br><br>
 ![output](https://github.com/user-attachments/assets/5812dbd2-fbc6-4fe5-b646-1b32512a4a20)
 ## crowdIntGauss.py
-In contrast to the ```crowdInt.py``` program this Python program uses the Gaussian model (normal distribution) instead of a crowd competence to simulate the guesses of the crowd. Instead of a crowd competence between one and ten you can set the standard deviation of the gaussian model. Alternatively you can just hit Enter when asked to input the deviation to use the default standard deviation, which is the correct answer / 2. 
+In contrast to the ```crowdInt.py``` program this Python program uses the Gaussian model (normal distribution) instead of a crowd competence to simulate the guesses of the crowd. Instead of a crowd competence between one and ten you can set the standard deviation of the Gaussian model. Alternatively you can just hit Enter when asked to input the deviation to use the default standard deviation, which is the correct answer / 2. 
 The following plot resulted from a simulation which had the correct answer of 100, used the default standard deviation (in this case 50) and collected the guesses of a crowd of 1000 people.<br><br>
 ![Screenshot from 2025-05-10 20-04-19](https://github.com/user-attachments/assets/96e8825b-0821-43e5-8f66-2d4d077f0746)
 ## Requirements
